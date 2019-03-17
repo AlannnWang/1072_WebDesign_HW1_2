@@ -1,0 +1,23 @@
+font{font-size:300pt;color:#00B7FF}
+check{font-size: 40pt;color:#cc33cc}
+myName{margin:0 auto; font-size: 17pt; font-weight:bold; font-family: 王漢宗仿宋體一標準}
+intro{text-align:center; font-size: 9pt; font-family: 王漢宗仿宋體一標準}
+theTitle{text-align:left; font-size: 17pt; font-weight:bold; font-family: 王漢宗仿宋體一標準 }
+theSubtitle{text-align:left; font-size: 12pt; font-weight:bold; font-family: 王漢宗仿宋體一標準 }
+content{text-align:left; font-size:9pt;  font-family:王漢宗仿宋體一標準}
+
+.img-selfie {
+    width: 10%;
+    height: 10%;
+    border-radius:50%;
+    /* border: 3px solid #fff;*/
+    display:block;
+    margin:auto;
+}
+
+.img-works {
+    width: 10%;
+    height: 10%;
+    border-radius:50%;
+    border: 3px solid #fff;
+}
