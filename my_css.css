@@ -1,58 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel=stylesheet type="text/css" href="my_css.css">
-    <title>HW1_2</title>
-</head>
-<body bgcolor="#FFCCCC">
+font{font-size:300pt;color:#00B7FF}
+check{font-size: 40pt;color:#cc33cc}
+#myName{
+    text-align:center;
+    font-size: 17pt;
+    font-weight:bold;
+    font-family: "王漢宗仿宋體一標準"}
 
-<!-- <img  src="../images/西裝.jpg " height="10%" width="10%"  ><br><br> -->
+#intro{
+    text-align:center; 
+    font-size: 9pt; 
+    font-family: "王漢宗仿宋體一標準";
+}
 
-<img src="http://ghost.cs.nccu.edu.tw/~f105305015/HW1/西裝_v2.jpg" class="img-selfie"/><br>
+theTitle{text-align:left; font-size: 17pt; font-weight:bold; font-family: 王漢宗仿宋體一標準 }
+theSubtitle{text-align:left; font-size: 12pt; font-weight:bold; font-family: 王漢宗仿宋體一標準 }
+content{text-align:left; font-size:9pt;  font-family:王漢宗仿宋體一標準}
 
-<!--個人介紹><-->
+.img-selfie {
+    width: 10%;
+    height: 10%;
+    border-radius:50%;
+    /* border: 3px solid #fff;*/
+    display:block;
+    margin:auto;
+}
 
-<div id="myName">王柏安
-</div>
-<br>
-
-<div id="intro">台北市，TW • 105305015@mail2.nccu.tw<br>
-    文字寫作者．UIUX學習者．服務設計初學者<br>
-    熱愛學習並成長的成就感<br>
-    目前致力UIUX與服務設計領域學習
-</div>
-<br>
-
-<!--技能-->
-<theTitle>技能</theTitle>
-<br>
-
-<a href="https://www.instagram.com/allan_r_w/"><img src="../images/行過地獄之路_書影2.jpg" class="img-works"/></a>
-<br>
-<theSubtitle>寫作<br></theSubtitle>
-<content>經營書籍電影心得評論Ig<br>
-    子彈筆記學習者
-</content>
-<br>
-
-<theSubtitle>UI.UX工具<br></theSubtitle>
-<content>Proto.io、Balsamiq Mockups 學習者</content>
-<br>
-
-<a href="https://drive.google.com/drive/folders/1nEntWC-RX1CAco4g8CN1Wr4K5zSDzfwO?usp=sharing"><img
-        src="../images/行過地獄之路_書影.jpg" class="img-works"/></a>
-<br>
-<theSubtitle>Photoshop<br></theSubtitle>
-<content>Photoshop學習者<br>
-    設計合唱團FB頭貼<br>
-    設計行銷課程宣傳品
-</content>
-<br>
-
-<a href="http://ghost.cs.nccu.edu.tw/~f105305015/HW1/Resume_Allen_v1.pdf">
-    <img src="http://ghost.cs.nccu.edu.tw/~f105305015/HW1/profile_pic.png" class="img-works"/></a>
-
-
-</body>
-</html>
+.img-works {
+    width: 10%;
+    height: 10%;
+    border-radius:50%;
+    border: 3px solid #fff;
+}
